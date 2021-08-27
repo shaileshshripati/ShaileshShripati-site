@@ -1,0 +1,113 @@
+:root
+{
+    --main-color: #FCD34D;
+}
+
+.navbar
+{
+    list-style: none;
+    background-color: var(--main-color);
+    overflow: hidden;
+    padding: 1rem 30rem;
+    border-bottom-right-radius: 2rem;
+   
+}
+
+.navbar a
+{
+    text-decoration: none;
+    display: inline;
+    padding: 0rem 1rem;
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ .navbar h2{
+    float: left;
+    overflow: hidden;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar a.active
+{
+    color: #FFFBEB;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.inner-text {
+    color: var(--main-color);
+}
+
+.section {
+    text-align: center;
+    padding: 2rem 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 1rem;
+    background-color: 
+    #F3F4F6;
+}
+
+.section-off {
+    text-align: center;
+    padding: 2rem 3rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-radius: 1rem;
+}
+
+.primary-button {
+    background-color: var(--main-color);
+    color: black;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border: transparent;
+}
+
+.secondary-button {
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+    font-size: 1rem;
+    border: 1px solid var(--main-color);
+}
+
+.secondary-button {
+    background: transparent;
+    color: black;
+}
+
+.footer {
+    background-color: var(--main-color);
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+.footer h2 {
+    margin-bottom: 3rem;
+    padding-left: 3rem;
+    font-family: 'Roboto Condensed' sans-serif;
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social {
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    display: inline;
+    padding: 0rem 2rem;
+}
