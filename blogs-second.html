@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+        <link href="blogs.css" rel="stylesheet">
+    <title>Git</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h2>ShaileshShripati</h2>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blogsmain.html" class="active">Blogs</a>
+    </nav>
+
+    <h2>Git</h2>
+
+    <p>
+        Git is a software for tracking changes in any set of files, usually used for coordinating work among programmers collaborative
+        developing source code during software development. Its goals include speed, data integrity, and support for distributed,
+        non-linear workflows (thousands of parallel branches running on different systems).
+
+        <h3>History</h3>
+
+        Git development began in April 2005, after many developers of the Linux kernel gave up access to BitKeeper, 
+        a proprietary source-control management (SCM) system that they had been using to maintain the project since 2002. 
+        The copyright holder of BitKeeper, Larry McVoy, had withdrawn free use of the product after claiming that Andrew Tridgell had 
+        created SourcePuller by reverse engineering the BitKeeper protocols.
+
+        <h3>Data structures</h3>
+
+        The object database contains five types of objects:
+        <br>
+A <span style="font-weight: bold;">blob</span> (binary large object) is the content of a file. 
+Blobs have no proper file name, time stamps, or other metadata (A blob's name internally is a hash of its content.). 
+In git each blob is a version of a file, it holds the file's data.<br>
+A <span style="font-weight: bold;">tree</span> object is the equivalent of a directory. 
+It contains a list of file names, each with some type bits and a reference to a blob or tree object that is that file, symbolic link, 
+or directory's contents. These objects are a snapshot of the source tree. (In whole, this comprises a Merkle tree, meaning that only
+ a single hash for the root tree is sufficient and actually used in commits to precisely pinpoint to the exact state of
+  whole tree structures of any number of sub-directories and files.)<br>
+A <span style="font-weight: bold;">object</span> links tree objects together into history. 
+It contains the name of a tree object (of the top-level source directory), a timestamp, a log message, and the names of zero 
+or more parent commit objects.<br>
+A <span style="font-weight: bold;">tag</span> object is a container that contains a reference to another object and can hold added
+ meta-data related to another object. Most commonly, it is used to store a digital signature of a commit object corresponding
+  to a particular release of the data being tracked by Git.<br>
+A <span style="font-weight: bold;">packfile</span> object is a zlib version compressed of various other objects for compactness and 
+ease of transport over network protocols.
+    </p>
+
+    <div class="footer">
+        <h2>Follow me</h2>
+        <ul class="social">
+            <li><a href=""><img src="/images/github.svg"/></a></li>
+            <li><a href=""><img src="/images/linkedin.svg"/></a></li>
+            <li><a href=""><img src="/images/twitter.svg"/></a></li>
+            <li><a href=""><img src="/images/instagram.svg"/></a></li>
+        </ul>
+    </div>
+</body>
+</html>
