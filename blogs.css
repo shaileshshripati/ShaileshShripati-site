@@ -5,3 +5,88 @@ body {
     margin-left: 3rem;
     margin-right: 3rem;
 }
+
+.first
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin-top: 0.5rem;
+}
+
+.second 
+{
+    background-color: gainsboro;
+    margin: 0.5rem;
+    padding: 20px;
+}
+
+.third 
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0.5rem;
+    text-align: center;
+}
+
+.fourth
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0.5rem;
+    box-shadow: 5px 10px #FCD34D;
+
+}
+
+.fifth
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.sixth
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0.5rem;
+}
+
+.sixth:hover
+{
+    color: indigo;
+    font-weight: bold;
+}
+
+.seventh
+{
+    background-color: gainsboro;
+    padding: 20px;
+    margin: 0.5rem;
+    letter-spacing: 2px;
+}
+
+.eigth
+{
+    background-color: gainsboro;
+    margin: 0.5rem;
+    padding: 20px;
+    display: flex;
+}
+
+.nineth
+{
+    background-color: gainsboro;
+    margin: 0.5rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tenth
+{
+    background-color: gainsboro;
+    margin: 0.5rem;
+    padding: 20px;
+    text-decoration: line-through;
+}

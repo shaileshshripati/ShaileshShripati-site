@@ -3,6 +3,19 @@
     --main-color: #FCD34D;
 }
 
+h3{
+    color: coral;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    text-align: center;
+    align-items: center;
+}
+
 body {
     font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
@@ -46,9 +59,7 @@ h2{
 
 .section {
     text-align: center;
-    padding: 2rem 3rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
+    padding: 2rem 10rem;
     border-radius: 1rem;
     background-color: 
     #F3F4F6;
@@ -57,8 +68,6 @@ h2{
 .section-off {
     text-align: center;
     padding: 2rem 3rem;
-    margin-left: 7rem;
-    margin-right: 7rem;
     border-radius: 1rem;
 }
 
